@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.yogi.bhandhanv2" version="0.1.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Bandhan V2</name>
-    <description>Bandhan App</description>
-    <author email="ideasyogi@gmail.com" href="https://yogeshdakre.github.io/slcgatekeeper/">ideasyogi</author>
+<widget id="com.yogi.gb" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>GrandBazar</name>
+    <description>GrandBazar</description>
+    <author email="ideasyogi@gmail.com" href="https://ideasyogi.bitbucket.io/shops/">ideasyogi</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -20,4 +20,5 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="10000" />
     <preference name="AutoHideSplashScreen" value="false" />
+  
 </widget>
