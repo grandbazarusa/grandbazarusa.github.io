@@ -351,22 +351,6 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/phonegap-plugin-push/www/push.js",
-        "id": "phonegap-plugin-push.PushNotification",
-        "pluginId": "phonegap-plugin-push",
-        "clobbers": [
-            "PushNotification"
-        ]
-    },
-    {
-        "file": "plugins/phonegap-plugin-push/www/browser/push.js",
-        "id": "phonegap-plugin-push.BrowserPush",
-        "pluginId": "phonegap-plugin-push",
-        "clobbers": [
-            "PushNotification"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
         "id": "cordova-plugin-inappbrowser.inappbrowser",
         "pluginId": "cordova-plugin-inappbrowser",
@@ -418,6 +402,22 @@ module.exports = [
         "id": "cordova-plugin-stripe.CordovaStripe",
         "pluginId": "cordova-plugin-stripe",
         "runs": true
+    },
+    {
+        "file": "plugins/phonegap-plugin-push/www/push.js",
+        "id": "phonegap-plugin-push.PushNotification",
+        "pluginId": "phonegap-plugin-push",
+        "clobbers": [
+            "PushNotification"
+        ]
+    },
+    {
+        "file": "plugins/phonegap-plugin-push/www/browser/push.js",
+        "id": "phonegap-plugin-push.BrowserPush",
+        "pluginId": "phonegap-plugin-push",
+        "clobbers": [
+            "PushNotification"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -439,13 +439,13 @@ module.exports.metadata =
     "cordova-sms-plugin": "1.0.0",
     "cordova-sqlite-storage": "2.6.0",
     "ionic-plugin-deeplinks": "1.0.20",
-    "phonegap-plugin-push": "2.1.3",
     "cordova-plugin-inappbrowser": "3.2.0",
     "cordova-plugin-add-swift-support": "2.0.2",
     "cordova-plugin-nativegeocoder": "3.4.1",
     "cordova-plugin-geolocation": "4.0.2",
     "cordova-plugin-bluetooth-serial": "0.4.7",
-    "cordova-plugin-stripe": "1.5.3"
+    "cordova-plugin-stripe": "1.5.3",
+    "phonegap-plugin-push": "2.3.0"
 }
 // BOTTOM OF METADATA
 });
